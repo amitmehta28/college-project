@@ -1,18 +1,181 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 /* commaon css starts */
-.container{
+button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn_solid {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #2DCF57;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    color: #ffffff;
+}
+
+.btn_border {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    color: #242424;
+    border: 1px solid #242424;
+
+}
+
+
+.sec_heading {
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.64px;
+}
+
+.sec_text {
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2%;
+    color: #242424;
+}
+
+
+
+
 /* commaon css end */
+
+.banner_sec {
+    background: #EAFFF0;
+    margin-bottom: 70px;
+}
+
+.banner_heading {
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.2%;
+    margin-bottom: 10px;
+    color: #242424;
+}
+
+.banner_text {
+    margin-bottom: 32px;
+}
+
+.banner_btns {
+    gap: 26px;
+}
+
+
+.counters_sec {
+    margin-bottom: 157px;
+}
+
+.counters_wrapper {
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.counters_item {
+    padding: 42px 62px;
+    border-radius: 20px;
+    background: #2DCF57;
+}
+
+.counter {
+    color: #FFF;
+    font-family: poppins;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.counters_bg {
+    background: #242424;
+}
+
+.sub_title {
+    color: #FFF;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.services_sec {
+    margin-bottom: 157px;
+}
+
+.service_wrapper {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.service_heading {
+    margin-bottom: 10px;
+}
+
+.services_list {
+    display: grid;
+    grid-template-columns: repeat(3, 347px);
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.service_item {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    padding: 40px 40px 40px 27px;
+}
+
+.service_icon {
+    margin-bottom: 20px;
+}
+
+.sec_title {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #2DCF57;
+}
+
+.service_title {
+    margin-bottom: 8px;
+}
