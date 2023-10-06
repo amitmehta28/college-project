@@ -67,6 +67,7 @@ li {
 
 .sec_text {
     font-family: poppins;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 2%;
     color: #242424;
@@ -80,6 +81,11 @@ li {
 .banner_sec {
     background: #EAFFF0;
     margin-bottom: 70px;
+}
+
+.banner_left,
+.banner_right {
+    width: 50%;
 }
 
 .banner_heading {
@@ -106,7 +112,7 @@ li {
 
 .counters_wrapper {
     gap: 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .counters_item {
@@ -153,8 +159,8 @@ li {
 .services_list {
     display: grid;
     grid-template-columns: repeat(3, 347px);
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .service_item {
@@ -178,4 +184,97 @@ li {
 
 .service_title {
     margin-bottom: 8px;
+}
+
+
+
+.appointment_sec {
+    margin-bottom: 157px;
+    overflow: hidden;
+}
+
+.appointment_bg {
+    background: #2DCF57;
+    display: grid;
+    place-content: center;
+    border-radius: 30px;
+    min-height: 438px;
+
+}
+
+.appointment_layer {
+    object-fit: cover;
+    width: 100%;
+    object-position: center left;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.appointment_title {
+    font-weight: 600;
+    color: #E4F4E8;
+    margin-bottom: 10px;
+}
+
+.appointment_heading {
+    text-align: center;
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 107%;
+    letter-spacing: 0.96px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.appointment_content {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.our_client {
+    margin-bottom: 157px;
+}
+
+.our_client_top {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.our_client_heading {
+    margin-bottom: 10px;
+}
+
+.slider_card {
+    max-width: 770px;
+    width: 100%;
+    padding: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.slider_card-top {
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.client_profile{
+    gap: 24px;
+}
+.client_name {
+    color: #242424;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.stars {
+    gap: 10px;
 }
