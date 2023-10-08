@@ -24,6 +24,7 @@ img {
     display: block;
 }
 
+
 .container {
     max-width: 1440px;
     width: 100%;
@@ -195,8 +196,6 @@ img {
     margin-bottom: 8px;
 }
 
-
-
 .appointment_sec {
     margin-bottom: 157px;
     overflow: hidden;
@@ -321,14 +320,65 @@ img {
     max-width: 100%;
 }
 
+.request_sec {
+    margin-bottom: 157px;
+}
 
+.req_content {
+    padding: 94px;
+    border-radius: 30px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    align-items: center;
+}
 
+.req_que {
+    color: #E4F4E8;
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+}
 
+.req_heading {
+    color: #FFF;
+    font-family: "roboto";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.96px;
+    margin-bottom: 14px;
+}
 
+.req_text {
+    color: white;
+    margin-bottom: 53px;
+}
 
+.req_imgs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
+.doctor {
+    margin-left: -30px;
+}
 
+.doc_sec {
+    color: white;
+    max-width: 226px;
+    width: 100%;
+}
 
+.req_input {
+    padding: 15px 24px;
+    margin-bottom: 31px;
+    width: 100%;
+}
 
 @media (max-width:1100px) {
     .banner_heading {
@@ -353,6 +403,11 @@ img {
     .why_item {
         margin-bottom: 20px;
     }
+
+    .req_content {
+        gap: 30px;
+    }
+
 }
 
 @media (max-width:991px) {
@@ -384,11 +439,18 @@ img {
         max-width: 100%;
     }
 
+    .req_content {
+        padding: 35px;
+    }
 
 
 }
 
 @media (max-width:768px) {
+    .banner_sec {
+        margin-bottom: 60px;
+    }
+
     .banner_content {
         flex-direction: column;
         gap: 20px;
@@ -418,6 +480,14 @@ img {
         width: 100%;
     }
 
+    .counters_sec {
+        margin-bottom: 60px;
+    }
+
+    .service_wrapper {
+        margin-bottom: 30px;
+    }
+
     .counters_item {
         width: 100%;
         text-align: center;
@@ -429,6 +499,10 @@ img {
 
     .sub_title {
         font-size: 14px;
+    }
+
+    .services_sec {
+        margin-bottom: 60px;
     }
 
     .services_list {
@@ -455,6 +529,18 @@ img {
         font-size: 14px;
     }
 
+    .appointment_sec {
+        margin-bottom: 60px;
+    }
+
+    .our_client {
+        margin-bottom: 60px;
+    }
+
+    .our_client_top {
+        margin-bottom: 30px;
+    }
+
     .appointment_bg {
         min-height: 290px;
     }
@@ -469,17 +555,89 @@ img {
         line-height: 95%;
     }
 
+    .slider_card {
+        padding: 20px;
+    }
+
+    .slider_card-top {
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    .client_profile {
+        gap: 12px;
+    }
+
+    .client_profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .client_name {
+        font-size: 16px;
+    }
+
+    .stars {
+        gap: 5px;
+    }
+
+    .stars>svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .client_review {
+        font-size: 14px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 24px !important;
+    }
+
+    .why_sec {
+        margin-bottom: 60px;
+    }
+
     .why_wrapper {
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    .why_list{
-        max-width: 100%;
-    }
-    .why_img{
+
+    .why_list {
         max-width: 100%;
     }
 
+    .why_img {
+        max-width: 100%;
+    }
+
+    .request_sec {
+        margin-bottom: 60px;
+    }
+
+    .req_content {
+        flex-direction: column;
+    }
+
+
+    .req_imgs {
+        padding-left: 30px;
+    }
+
+    .req_heading {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .req_text {
+        margin-bottom: 30px;
+    }
+
+    .req_input {
+        padding: 8px 24px;
+        margin-bottom: 24px;
+    }
 
 }
 
