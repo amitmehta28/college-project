@@ -127,6 +127,7 @@ img {
     padding: 25px 50px;
     border-radius: 20px;
     background: #2DCF57;
+    text-align: center;
 }
 
 .counter {
@@ -660,3 +661,5 @@ img {
         max-width: 100%;
     }
 }
+
+
