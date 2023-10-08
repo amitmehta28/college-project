@@ -448,7 +448,7 @@ img {
 
 @media (max-width:768px) {
     .banner_sec {
-        margin-bottom: 60px;
+        padding: 60px 0;
     }
 
     .banner_content {
