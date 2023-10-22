@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: poppins;
 }
-
+a{
+    color: #FFF;
+    text-decoration: none;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -127,6 +130,7 @@ img {
     padding: 25px 50px;
     border-radius: 20px;
     background: #2DCF57;
+    text-align: center;
 }
 
 .counter {
@@ -448,7 +452,7 @@ img {
 
 @media (max-width:768px) {
     .banner_sec {
-        margin-bottom: 60px;
+        padding: 60px 0;
     }
 
     .banner_content {
@@ -660,3 +664,5 @@ img {
         max-width: 100%;
     }
 }
+
+
